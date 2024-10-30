@@ -1,0 +1,83 @@
+.cfw-accordion .cfw-radio-reveal-label>div.m_olay {
+    display: none !important;
+}
+
+.credova_on_cart#credova_white {
+    color: white;
+}
+.credova-response-amount .crdv-button .crdv-button-brand {
+    background-size: 78px 13px!important;
+    width: 85px!important;
+    background-position: bottom!important;
+}
+.payment_method_credova label {
+    display: inline-flex !important;
+}
+.payment_method_credova img {
+    max-width: 90px !important;
+    margin: 0 4px !important;
+}
+.crdv-button:hover {
+    color: #60C371;
+    text-decoration: none;
+}
+#credova_white .crdv-learn-more {
+    color: white;
+}
+#credova_white .crdv-button {
+    color: #FFF7EE !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+}
+
+#credova_white .crdv-brand{
+    fill: #FFF7EE;
+}
+
+.credova_on_cart{
+    text-align:center;
+}
+
+.loadingOverlayz {
+    background: rgba(255, 255, 255, 0.9);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 250ms ease-out;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 20;
+
+}
+.loadingOverlayz::before {
+    height: 90px;
+    width: 90px;
+    border-radius: 4.61538rem;
+    border: solid 3px;
+    border-color: #fff #fff #d9d9d9 #d9d9d9;
+    content: "";
+    display: block;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform-style: preserve-3d;
+    animation: spin 500ms infinite cubic-bezier(0.69, 0.31, 0.56, 0.83);
+}
+
+.payment_method_credova{
+    position:relative;
+}
+.crdv-popup-modal.x-bulma-modal.modal-close{
+    float: none !important;
+      position:sticky !important;
+}
+#credova_white span.crdv-text {
+    color: white;
+    background: transparent;
+}
